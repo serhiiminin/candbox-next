@@ -1,5 +1,9 @@
+import MyLayout from '../components/MyLayout';
+
 export default () => (
   <div>
-    <p>This is the about page</p>
+    <MyLayout>
+      <p>This is the about page</p>
+    </MyLayout>
   </div>
 )
